@@ -1,12 +1,12 @@
 {
-  "name": "react-image-magnify",
-  "version": "2.7.4",
+  "name": "@blacksquareca/react-image-magnify",
+  "version": "2.7.5",
   "description": "A responsive image zoom component designed for shopping sites.",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ethanselzer/react-image-magnify.git"
+    "url": "https://github.com/BlackSquareCa/react-image-magnify.git"
   },
-  "author": "Ethan Selzer <ethanselzer@gmail.com>",
+  "author": "Jiadong Hu <jiadong.hu@blacksquare.io>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/ethanselzer/react-image-magnify/issues"
@@ -35,7 +35,6 @@
     "LICENCE"
   ],
   "scripts": {
-    "prepare": "npm run build",
     "analyze": "npm run stats && webpack-bundle-analyzer stats.json",
     "build-umd": "webpack -p",
     "build-cjs": "cross-env BABEL_ENV=cjs babel src --out-dir dist",
@@ -95,12 +94,12 @@
     "react": "~0.14.9 || ^15.0.0 || ^16.0.0"
   },
   "dependencies": {
+    "@blacksquareca/react-cursor-position": "^3.0.4",
     "clamp": "1.0.1",
     "detect-it": "3.0.3",
     "fast-deep-equal": "1.0.0",
     "object-assign": "4.1.1",
     "prop-types": "15.6.0",
-    "react-cursor-position": "github:BlackSquareCa/react-cursor-position",
     "react-required-if": "1.0.1"
   }
 }
